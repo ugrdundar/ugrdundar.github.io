@@ -20,15 +20,15 @@
   </section>
 
   <section>
-    <h2>1. Hesap için toplanan bilgiler</h2>
-    <p>Hesap oluşturup giriş yapabilmen için şu bilgiler saklanır:</p>
+    <h2>1. Uygulamaya girdiğin bilgiler</h2>
+    <p>Sürüm 1.1.1 ve sonrasında hesap, e-posta veya şifre yoktur. Uygulama yalnızca senin girdiğin şu bilgileri kullanır:</p>
     <ul>
-      <li>E-posta adresi</li>
-      <li>Ad (girdiysen)</li>
-      <li>Hesap kimliği (kullanıcı ID)</li>
-      <li>Uygulamaya girdiğin bırakma tarihi, günlük sigara sayısı, fiyat gibi takip bilgileri</li>
+      <li>Adın ve soyadın</li>
+      <li>Bırakma tarihi, günlük sigara sayısı, paket fiyatı gibi takip bilgileri</li>
+      <li>Günlük kayıtların (içilen sigara ve kriz anı sayıları) ve hatırlatma ayarın</li>
     </ul>
-    <p>Bu bilgiler yalnızca hesabını yönetmek, ilerlemeni göstermek ve gerektiğinde seninle iletişim kurmak için kullanılır. Pazarlama amacıyla kullanılmaz ve satılmaz. Veriler, güvenli bir bulut altyapısında (Supabase) şifreli bağlantı üzerinden saklanır.</p>
+    <p>Bu bilgiler <strong>yalnızca kendi cihazında</strong> saklanır; bize veya herhangi bir sunucuya gönderilmez. Uygulamayı sildiğinde ya da <em>Ayarlar → Yeniden Başla</em> dediğinde tamamen silinir.</p>
+    <p><strong>Eski sürümler:</strong> 1.1.0 ve önceki sürümlerde e-posta ile hesap açılıyordu ve bu bilgiler (e-posta, ad, kullanıcı kimliği, takip verileri) güvenli bir bulut altyapısında (Supabase) saklanıyordu. Bu hesaplar yeni sürüme geçildiğinde kullanılmaz; verileri cihazına bir kez aktarılır. Eski hesabının sunucudan silinmesini istersen aşağıdaki e-posta adresinden bize yazabilirsin.</p>
   </section>
 
   <section>
@@ -43,7 +43,7 @@
     </table>
     <p>Uygulama ilk açıldığında Apple'ın <strong>“Uygulama İzleme Şeffaflığı”</strong> izni istenir. İzin vermezsen reklam kimliğin paylaşılmaz ve sana kişiselleştirilmemiş reklamlar gösterilir. Bu tercihi istediğin zaman iPhone'da <em>Ayarlar → Gizlilik ve Güvenlik → İzleme</em> bölümünden değiştirebilirsin.</p>
     <p>Avrupa Ekonomik Alanı ve Birleşik Krallık'taki kullanıcılardan reklam verileri için ayrıca Google'ın onay ekranı aracılığıyla izin istenir.</p>
-    <p>Hesap bilgilerin (e-posta, ad, takip verileri) reklam ortaklarıyla <strong>paylaşılmaz</strong>. Google'ın verileri nasıl kullandığı hakkında: <a href="https://policies.google.com/technologies/partner-sites?hl=tr">Google iş ortağı siteleri ve uygulamaları</a>.</p>
+    <p>Adın ve takip verilerin reklam ortaklarıyla <strong>paylaşılmaz</strong>. Google'ın verileri nasıl kullandığı hakkında: <a href="https://policies.google.com/technologies/partner-sites?hl=tr">Google iş ortağı siteleri ve uygulamaları</a>.</p>
   </section>
 
   <section>
@@ -53,13 +53,14 @@
 
   <section>
     <h2>4. Verilerin paylaşımı</h2>
-    <p>Kişisel verilerin satılmaz veya kiralanmaz. Veriler yalnızca hizmetin çalışması için gereken altyapı sağlayıcılarıyla (Supabase, Google AdMob) ve yasal zorunluluk durumunda yetkili makamlarla paylaşılır.</p>
+    <p>Kişisel verilerin satılmaz veya kiralanmaz. Veriler yalnızca hizmetin çalışması için gereken altyapı sağlayıcılarıyla (Google AdMob; eski sürümlerdeki hesaplar için Supabase) ve yasal zorunluluk durumunda yetkili makamlarla paylaşılır.</p>
   </section>
 
   <section>
-    <h2>5. Haklarınız ve hesap silme</h2>
+    <h2>5. Haklarınız ve veri silme</h2>
     <ul>
-      <li><strong>Hesap silme:</strong> Uygulamada <em>Ayarlar → Hesabımı Sil</em> ile hesabını ve tüm verilerini kalıcı olarak silebilirsin.</li>
+      <li><strong>Veri silme:</strong> Uygulamada <em>Ayarlar → Yeniden Başla</em> ile cihazındaki tüm verileri silebilirsin. Uygulamayı silmek de verileri kaldırır.</li>
+      <li><strong>Eski hesaplar:</strong> 1.1.0 veya önceki bir sürümü kullanıyorsan <em>Ayarlar → Hesabımı Sil</em> ile hesabını silebilir ya da bize e-posta ile silme talebi gönderebilirsin.</li>
       <li>Hakkında tutulan verileri görme, düzeltme veya silinmesini isteme hakkına sahipsin.</li>
       <li>Bu talepler için aşağıdaki e-posta adresinden bize ulaşabilirsin.</li>
     </ul>
